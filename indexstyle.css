@@ -15,7 +15,7 @@ body {
 }
 h1{
     color: aliceblue;
-    font-size: clamp(1.8rem, calc(7vw + 1rem), 8rem);
+    font-size: clamp(1.8rem, calc(7vw + 1rem), 5rem);
 }
 #avatar{
     position: absolute;
