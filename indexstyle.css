@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.intro{
+  
+    height: fit-content;
+    width:100vh;
+    margin-left: 10%;
+    font-size: 6vh;
+}
+h1{
+    color: aliceblue;
+    font-size: clamp(1.8rem, calc(7vw + 1rem), 8rem);
+}
+#avatar{
+    position: absolute;
+    height: 40vh;
+    width: 40vh;
+    margin-top: -.5%;
+
+}
+#btn1{
+   
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 5%;
+    
+    
+}
+#btn1 input{
+     height: 70px;
+    width: 250px;
+    border-radius: 50px;
+    color: darkred;
+    font-size: 4vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#btn1 input:hover{
+    background-color: rgb(209, 209, 216);
+    color: rgb(241, 10, 10);
+    transform: scale(1.1);
+   
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(29, 29, 29);
+}
+
+#images img{
+
+    max-width: 100%;
+    aspect-ratio: 2;
+    position: absolute;
+    margin-right: 200px;
+    
+}
+#images{
+    width: 50%;
+    height: 100%;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+#design1{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: 0;
+    margin-left: 130vh;
+    animation: bganim 10s infinite;
+    transform: skew(-30deg);
+    background: rgb(228, 173, 102);
+}
+#design2{
+    width: 55%;
+    height: 30px;
+    position: absolute;
+    margin-top: 97.1vh;
+    margin-left: -2%;
+    animation: bganim 10s infinite;
+    transform: skew(-30deg);
+    background: rgb(228, 173, 102);
+}
+#imghtml{
+    z-index: 3;
+    transform: scalex(1.3);
+    animation: anim1 10s ease-in-out infinite  ;
+    
+}
+#imgcss{
+    z-index: 2;
+   transform: translate(150px, -200px) scale(.5);
+   animation: anim2 10s ease-in-out infinite  ;
+ 
+   
+}
+#imgjs{
+    z-index: 1;
+    transform: translate(250px, -250px) scale(.3);
+    animation: anim3 10s ease-in-out  infinite  ;
+}
+
+/* Add more CSS styling to customize the appearance of your portfolio. */
+
+ke{
+    color: black;
+    font-size: 7vh;
+}
+p1{
+    font-size: 2vh;
+}
